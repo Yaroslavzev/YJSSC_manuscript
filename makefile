@@ -1,6 +1,6 @@
 # $Id: makefile 162 2019-01-14 09:36:11Z rishi $
 
-file=paper_tennantite
+file=paper_tennantite0
 
 
 all: pdf out 

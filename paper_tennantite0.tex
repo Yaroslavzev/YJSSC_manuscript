@@ -126,19 +126,19 @@
 
 
 \begin{abstract}
-Synthetic tennantite, Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13}, is the analogue of an abundant mineral that belongs to the tennantite-tetrahedri\textcolor{red}{t}e group with a low lattice thermal conductivity.
-\textcolor{red}{Combined data from high-quality X-ray diffraction, electron microscopy (STEM--HAADF), Raman spectroscopy, as well as DFT calculations are used to analyze the peculiarities of its structure stability and dynamics.
+Synthetic tennantite, Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13}, is the analogue of an abundant mineral that belongs to the tennantite-tetrahedrite group with a low lattice thermal conductivity.
+Combined data from high-quality X-ray diffraction, electron microscopy (STEM--HAADF), Raman spectroscopy, as well as DFT calculations are used to analyze the peculiarities of its structure stability and dynamics.
 Atomic displacement parameters (ADP) and low-energy optical phonon modes are discussed within the context of the structure variations and pecularities of the charge distribution.
 The latter indicates that the tennantite structure tends to conform to the covalent polar bonds and its charge distribution is significantly affected by the atomic shifts in Laves polyhedra.
 According to the DFT calculations, there is a population of stable model structures with varying shifts of copper atoms in Laves polyhedra, with total energies being very close (within 0.24~eV), which can explain the observed behavior of the ADP.
-A specially designed  technique is used for the experimental analysis of the ADP that revealed Einstein characteristic temperatures in the tennantite structure to be in the range of 50--190~K, which is attributed to  low-energy optical phonon modes.}
+A specially designed  technique is used for the experimental analysis of the ADP that revealed Einstein characteristic temperatures in the tennantite structure to be in the range of 50--190~K, which is attributed to  low-energy optical phonon modes.
 
 
 \section*{Highlights}
 \begin{itemize}
-  \item Synthetic tennantite Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13} structure consists of disordered Laves \textcolor{red}{polyhedra}
-  \item DFT calculations reveal a mixed valence of Cu atoms, and Laves \textcolor{red}{polyhedra} distortions
-  \item Jahn-Teller distortions give rise to a set of unit cells with close \textcolor{red}{ground} state energies
+  \item Synthetic tennantite Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13} structure consists of disordered Laves polyhedra
+  \item DFT calculations reveal a mixed valence of Cu atoms, and Laves polyhedra distortions
+  \item Jahn-Teller distortions give rise to a set of unit cells with close ground state energies
   \item Rattling vibration modes refer to Einstein temperatures of 74, 104, 115, 185K
 \end{itemize}
 
@@ -151,6 +151,7 @@ DFT calculations\sep
 structural anisotropy\sep
 Raman spectroscopy\sep
 X-ray diffraction\sep
+computer simulations\sep
 
 %% PACS codes here, in the form: \PACS code \sep code
 
@@ -168,18 +169,18 @@ X-ray diffraction\sep
 % \label{}
 \section{Introduction}\label{sec:level1}
 
-The tennantite-tetrahedri\textcolor{red}{t}e group represents a large class of inorganic compounds, including complex copper sulfosalts with the general formula Cu\textsubscript{10+x}M\textsubscript{2-x}X\textsubscript{4}S\textsubscript{13}, where M is a transition metal (Zn, Fe, Hg, etc.), and X is a pnictogen (As, Sb, or Bi) \cite{Makovicky_2006}, with the pure tennantite itself represented by the formula Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13}.
+The tennantite-tetrahedrite group represents a large class of inorganic compounds, including complex copper sulfosalts with the general formula Cu\textsubscript{10+x}M\textsubscript{2-x}X\textsubscript{4}S\textsubscript{13}, where M is a transition metal (Zn, Fe, Hg, etc.), and X is a pnictogen (As, Sb, or Bi) \cite{Makovicky_2006}, with the pure tennantite itself represented by the formula Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13}.
 Despite being known for over two centuries, these minerals still represent objects of intense studies, both due to  structural peculiarities and potential applications. Arsenic- and antimony-containing compounds of this class are considered as advanced thermoelectric materials with a low lattice thermal conductivity\cite{Sootsman2009,Chetty2015}.
-\textcolor{red}{For instance, tetrahedrite doped with Mn, Fe, Co, Ni, Zn, Te, Se showed ZT values in the range from 0.2 to 1.13\cite{Heo2014,Suekuni2013,Lu2012,Barbier2016,Rout2020,Zhu2019}.}
+For instance, tetrahedrite doped with Mn, Fe, Co, Ni, Zn, Te, Se showed ZT values in the range from 0.2 to 1.13\cite{Heo2014,Suekuni2013,Lu2012,Barbier2016,Rout2020,Zhu2019}.
 
-\textcolor{red}{The tennantite structure is treated as a sphalerite-type, thus conforms to the \hmn{I -4 3 m} space group\cite{yaroslavzev2019,Makovicky_2006}.
+The tennantite structure is treated as a sphalerite-type, thus conforms to the \hmn{I -4 3 m} space group\cite{yaroslavzev2019,Makovicky_2006}.
 The structure can be described by five nonequivalent crystallographic sites: two for Cu, one for As, and two for S.
 Cu1 is tetrahedrally coordinated (CuS\textsubscript{4}) by four S1, and As forms a trigonal pyramid (AsS\textsubscript{3}) with three S1.
 Additionally, the S2 is a center of an octahedral unit that is called a Laves polyhedra (SCu\textsubscript{6}) with six copper atoms in sites Cu2 and Cu21.
 Cu2 is trigonally coordinated (CuS\textsubscript{3}) by two S1 and one S2, while Cu21 is coordinated by two S1, one S2 and one As atoms.
 Cu21 and Cu2 atoms show very large atomic displacements perpendicular to the plane of the triangle (Fig.~\ref{fig:generel_view}, right).
-}
-In a case of tennantite- and tetrahedrite-based materials, it is generally considered that a low lattice thermal conductivity is caused by hybridized Cu {\it 3d}  and chalcogen \textcolor{red}{{\it p}} orbitals\cite{Lai2015}.
+
+In a case of tennantite- and tetrahedrite-based materials, it is generally considered that a low lattice thermal conductivity is caused by hybridized Cu {\it 3d}  and chalcogen {\it p} orbitals\cite{Lai2015}.
 Such a hybridization leads to a bonding asymmetry, and out-of-plane low frequency rattling modes, which are quasi-localized and anharmonic\cite{May2016,Bouyrie2015}.
 
 \begin{figure}[ht]
@@ -187,20 +188,20 @@ Such a hybridization leads to a bonding asymmetry, and out-of-plane low frequenc
 \subfigure{\includegraphics[width=0.4\columnwidth]{general_view}}
  \quad
 \subfigure{\includegraphics[width=0.35\columnwidth]{general_view_laves}}
-\caption{\label{fig:generel_view} \textcolor{red}{Left --- the Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13} tennantite structure with coordination polyhedra around the Cu1 (blue), and the Laves polyhedra (yellow); right --- the Laves polyhedra containing Cu2 and Cu21 atoms with their partial occupancies shown as sections of spheres.} }
+\caption{\label{fig:generel_view} Left --- the Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13} tennantite structure with coordination polyhedra around the Cu1 (blue), and the Laves polyhedra (yellow); right --- the Laves polyhedra containing Cu2 and Cu21 atoms with their partial occupancies shown as sections of spheres.}
 \end{figure}
 
 Some authors note\cite{DiBenedetto2005,Tanaka2015}, that asymmetric bonds give rise to magnetic properties and, in some cases, to antiferromagnetic (AFM) ordering\cite{yaroslavzev2019,Blandy_2018}.
 In both kinds of materials, deviations from the Curie-Weiss law in the temperature dependencies of the magnetization were revealed: at 124~K\cite{Tanaka2015} in tennantite, and at 84~K\cite{Nasonova2016_2} in tetrahedrite.
 
-According to the structural study, these deviations take place due to the distortion of \textcolor{red}{Cu\textsubscript{6}S} octahedra \textcolor{red}{(Laves polyhedra)}\cite{Tanaka2015}.
+According to the structural study, these deviations take place due to the distortion of Cu\textsubscript{6}S octahedra (Laves polyhedra)\cite{Tanaka2015}.
 The distortion at 84 K in tetrahedrite is reported to lead to either the symmetry lowering from \hmn{I -4 3 m} to \hmn{I -4 2 m}  space group accompanied by the displacement of S atoms\cite{Hathwar2019}, or to a shift of Cu2 atoms towards S\textsubscript{3} triangle plane with S\textsubscript{2} displacement\cite{Nasonova2016_2} in the same symmetry, and space group.
 
 Recently, we have performed a multi-temperature (90--298~K) structural study of a synthetic tennantite\cite{yaroslavzev2019} and found that below ca. 120 K the copper atom distribution in tennantite changes from a more statistically delocalized Cu2 to a well-defined split into Cu2 and Cu21 positions without a first-order phase transition.
-This effect is accompanied by As1 and S2 atoms displacement, which was also observed in \textcolor{red}{Ref.}~\cite{Hathwar2019}.
+This effect is accompanied by As1 and S2 atoms displacement, which was also observed in Ref.~\cite{Hathwar2019}.
 We also investigated the low- and room-temperature electronic structures of a synthetic tennantite based on the DFT calculations, which confirmed the second-order transition from the low-temperature AFM to the room-temperature PM state\cite{yaroslavzev2019}.
 
-However, the relationships between the peculiarities of the tennantite crystal and its electronic structures and thermoelectric properties, including the behavior of Laves \textcolor{red}{polyhedra} in the structure, were put aside in the previous paper\cite{yaroslavzev2019}.
+However, the relationships between the peculiarities of the tennantite crystal and its electronic structures and thermoelectric properties, including the behavior of Laves polyhedra in the structure, were put aside in the previous paper\cite{yaroslavzev2019}.
 In this paper, we focus on these problems, and  investigate the tennantite cell energy distribution, and the charge density differences for different Cu positions in the Laves polyhedra.
 Also, we investigate low-energy phonon modes, and peculiarities of the ADP in the temperature range of 85--293~K, the same as in Ref.~\cite{Dudka2019}, in the context of the cell energy distribution.
 To clarify the distortions in Laves polyhedra, a study of the spherical single-crystal sample was performed and the high-angle annular dark-field (HAADF) images were obtained.
@@ -216,7 +217,7 @@ The temperature in the recrystallization zone was chosen 40 K~above the tennanti
 \subsection{Single-crystal X-ray diffraction}\label{sec:level2}
 A spherically shaped single-crystal sample of Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13}  was prepared for the anisotropic extinction study\cite{Becker1975}.
 Enraf-Nonius CAD-4 diffractometer with AgK\textsubscript{$\alpha$} equipped with graphite monochromator was used for the data collection.
-The spherical single-crystal structural study results are presented in Supplementary Material, and they are compared with the structural data \textcolor{red}{from} the \textcolor{red}{regularly shaped crystal} sample\cite{yaroslavzev2019}.
+The spherical single-crystal structural study results are presented in Supplementary Material, and they are compared with the structural data from the regularly shaped crystal sample\cite{yaroslavzev2019}.
 
 \subsection{Analysis of temperature dynamics of atomic displacements}\label{sec:level2}
 The temperature dynamics of an atomic displacement from the previous study\cite{yaroslavzev2019} were used to estimate Einstein characteristic temperatures by the mixed Einstein-Debye model using DebyeFit program\cite{Dudka2019}.
@@ -246,12 +247,12 @@ We used 3~ONDAX~114-ER297-001 fiber Bragg gratings to observe lines near the las
 
 \subsection{Remarks on the structure of synthetic tennantite}\label{sec:level2}
 The study of the high quality single crystal allowed us to re-investigate the crystal structure of Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13}  with a high precision.
-\textcolor{red}{The structure was refined in a way similar to previously described in Ref.~\cite{yaroslavzev2019}.
+The structure was refined in a way similar to previously described in Ref.~\cite{yaroslavzev2019}.
 The sum of occupancies for Cu2, Cu21 and its symmetry related site were constrained to 1.
 Due to rather large distance between these atoms their ADP were refined independently.
-The maximum entropy method (MEM) refinement gave the result identical to \cite{yaroslavzev2019}.}
+The maximum entropy method (MEM) refinement gave the result identical to \cite{yaroslavzev2019}.
 Our data confirms that the compound contains 12 copper atoms per formula unit, and shows no evidence of copper deficiency.
-Neither XRD, nor TEM data \textcolor{red}{have shown detectable packing defects}.
+Neither XRD, nor TEM data have shown detectable packing defects.
 
 \begin{table}
 \caption{\label{tab:anis_ext}%
@@ -272,7 +273,7 @@ Anisotropic extinction parameters in Cu\textsubscript{12}As\textsubscript{4}S\te
 \end{table}
 
 Due to the crystal growth method used, the sample shows a degree of anisotropic extinction. Extinction parameters are presented in the Table~\ref{tab:anis_ext}.
-\textcolor{red}{The disorder of Cu21} is observed in the analyzed HAADF image of the sample in [110] zone (Fig.~\ref{fig:micro}).
+The disorder of Cu21 is observed in the analyzed HAADF image of the sample in [110] zone (Fig.~\ref{fig:micro}).
 The electron diffraction, and overlay of HAADF image with the tennantite crystal [110] zone generated by VESTA\cite{Momma2011}, are given in Supplementary Material.
 Processed HAADF image (Fig.~\ref{fig:micro}, right) shows  an ellipticity for the Cu/As atomic columns, which is a measure of the atomic column elongation\cite{Nord2017}.
 The atomic column elongation is evidenced by the blurring of the intensity distribution, and a large atomic displacement.
@@ -312,7 +313,7 @@ A good agreement between model ADP, u\textsubscript{calc}, and equivalent experi
 \caption{\label{fig:enst_temp} Equivalent parameters u\textsubscript{eq} of the mean-square displacements of atoms in tennantite. Points are the experimental data. Solid curves show the fit of the temperature dependences according to the expanded Einstein model.}
 \end{figure}
 
-Large static values for Cu2 atom (Table~\ref{tab:enst_temp}) \textcolor{red}{confirmed instability of this site\cite{Hathwar2019,yaroslavzev2019}}.
+Large static values for Cu2 atom (Table~\ref{tab:enst_temp}) confirmed instability of this site\cite{Hathwar2019,yaroslavzev2019}.
 This disorder is reliably described by the anharmonic model of atomic displacements using the Gram-Charlier expansion to the 4th order.
 
 \begin{table}
@@ -352,14 +353,14 @@ The fit result is presented in Figure~\ref{fig:full_raman}, and in Table 3. Peak
 \caption{\label{fig:full_raman} The Raman spectrum of the crystalline tennantite. Peaks between 200, and 400 cm\textsuperscript{-1} refer to (Sb, As)S\textsubscript{3} groups modes\cite{Kharbish2007}. Peaks below 200 cm\textsuperscript{-1} are related to the lattice dynamics\cite{Buzatu2017}. Blue --- experimental data, red --- the superposition of modes, dotted --- fitted peaks}.
 \end{figure}
 
-Within \textcolor{red}{the approach above}, the Einstein solid model is used to describe independent harmonic oscillators.
+Within the approach above, the Einstein solid model is used to describe independent harmonic oscillators.
 Thus, the low energy spectrum should consist of peaks with the Einstein's energies, which we found by DebyeFit (Table~\ref{tab:enst_temp}).
 The results of the calculations are presented in Figure~\ref{fig:low_energ_raman}.
 The Einstein's energies from structural study were used as the initial points for the fit, with the initial and fitted wavenumbers are presented and in Table~\ref{tab:ram_fit}.
 The low energy $l_{1}$ and $l_{2}$ peaks are well described by Einstein's energies of Cu2, Cu21, Cu1, and As (66, 40, 79, and 122 cm\textsuperscript{-1} respectively).
-\textcolor{red}{Same modes were observed and analyzed in tetrahedrites\cite{May2016,Lai2015} with energies approximately 4, 9 and 18 meV (33, 72, 145 cm\textsuperscript{-1}) which is
+Same modes were observed and analyzed in tetrahedrites\cite{May2016,Lai2015} with energies approximately 4, 9 and 18 meV (33, 72, 145 cm\textsuperscript{-1}) which is
 in good agreement with our results.
-Thus, we can state that the reason for the strong anharmonic behavior is a dynamic disorder of the copper atoms and arsenic atoms.}
+Thus, we can state that the reason for the strong anharmonic behavior is a dynamic disorder of the copper atoms and arsenic atoms.
 Consequently, this leads to out-of-plane low frequency rattling modes, and a low lattice thermal conductivity.
 
 
@@ -387,21 +388,21 @@ Fitted Einstein's energies, cm\textsuperscript{-1}	  &  66  & 40	& 79 & 122  \\
 \caption{\label{fig:low_energ_raman} Raman spectrum of the tennantite crystal  below 200 cm\textsuperscript{-1}. Experimental peaks are considered as the peaks with Einstein's energies. Blue --- experimental data, red --- modes based on the Einstein's energies fit, dotted --- fitted peaks.}
 \end{figure}
 
-\subsection{Theoretical analysis of possible polytypes and morphology of Laves \textcolor{red}{polyhedra} }\label{sec:level2}
+\subsection{Theoretical analysis of possible polytypes and morphology of Laves polyhedra}\label{sec:level2}
 
 Using the DFT calculations, we tested an assumption that the synthetic tennantite crystal structure is not the most energetically stable, and could  feature various polytypes.
 As an initial point, we considered tennantite structure described in  \hmn{I -4 2 m}\ space group (henceforth called {\it reference structure}).
-The unit cell contains Laves \textcolor{red}{polyhedra} formed by copper atoms around sulphur ones (Figure~\ref{fig:init_and_opt_laves}, number 0).
-By shifting copper atoms by ca. 1~$\angstrom$, we produced a population of structures with varying shapes of Laves \textcolor{red}{polyhedra}, which were then subjected to the procedure of unconstrained structural optimization.
-\textcolor{red}{In the DFT calculations, where we cannot have Cu2 and Cu21 at the same time since we cannot have part of an atom occupying a position within a single polyhedron, we prefer to only use Cu2 notation, but distinguish their positions before and after optimization.}
-The Laves \textcolor{red}{polyhedra} morphologies before and after the optimization are shown in Figure~\ref{fig:init_and_opt_laves}.
+The unit cell contains Laves polyhedra formed by copper atoms around sulphur ones (Figure~\ref{fig:init_and_opt_laves}, number 0).
+By shifting copper atoms by ca. 1~$\angstrom$, we produced a population of structures with varying shapes of Laves polyhedra, which were then subjected to the procedure of unconstrained structural optimization.
+In the DFT calculations, where we cannot have Cu2 and Cu21 at the same time since we cannot have part of an atom occupying a position within a single polyhedron, we prefer to only use Cu2 notation, but distinguish their positions before and after optimization.
+The Laves polyhedra morphologies before and after the optimization are shown in Figure~\ref{fig:init_and_opt_laves}.
 Total energy differences between the reference structure of initial tennantite and optimized structures are shown in Figure~\ref{fig:energy_structure_rescale}.
 
 
 \begin{figure}
 \centering
  \includegraphics[width=0.48\textwidth]{Init_and_opt_renamed}
- \caption{\label{fig:init_and_opt_laves} The geometries of SCu\textsubscript{6} Laves \textcolor{red}{polyhedra} before and after structural optimization. sulphur atoms are shown in yellow, copper atoms before optimization are shown in grey, and after optimization in blue. VESTA\cite{Momma2011} was used for the visualisation. }
+ \caption{\label{fig:init_and_opt_laves} The geometries of SCu\textsubscript{6} Laves polyhedra before and after structural optimization. sulphur atoms are shown in yellow, copper atoms before optimization are shown in grey, and after optimization in blue. VESTA\cite{Momma2011} was used for the visualisation. }
 \end{figure}
 
 Our calculations indicate that the experimentally determined synthetic tennantite structure is not the most energy favorable one at 0~K.
@@ -435,7 +436,7 @@ The coordination of the central sulphur atom deviates quite a lot from an ideal 
 
 \begin{table*}
 \caption{\label{tab:energy}%
-The difference between the reference structure energy, and the unit cell energy of tennantite with different Laves \textcolor{red}{polyhedra}.
+The difference between the reference structure energy, and the unit cell energy of tennantite with different Laves polyhedra.
 }
 \centering
 \resizebox{\textwidth}{!}{
@@ -455,28 +456,28 @@ The other sulphur atom shows minor charge fluctuations, and they appear to be no
 \begin{figure}
 \centering
  \includegraphics[width=0.48\textwidth]{energy_structure_rescale_ri}
- \caption{\label{fig:energy_structure_rescale} The difference between the reference structure energy and the unit cell energy of tennantite with different Laves \textcolor{red}{polyhedra}. Horizontal red line shows the reference unit cell energy. }
+ \caption{\label{fig:energy_structure_rescale} The difference between the reference structure energy and the unit cell energy of tennantite with different Laves polyhedra. Horizontal red line shows the reference unit cell energy. }
 \end{figure}
 
 Each of these groups has structures with an energy gain over the reference structure, and each of them has a certain split of a positive charge on Cu2 atoms, while Cu1 atomic charges remain constant throughout.
 Thus, we can say that the splitting of the Cu2 position into Cu2 and Cu21, as evident from the XRD structure analysis, facilitates the differences in charge distribution.
 Hence, the energy gain from forming Cu21 position leads to slightly different electronic states of Cu2 and Cu21 atoms, which, in turn, leads to the formation of asymmetric bonds, as was pointed out for tetrahedrites\cite{Lai2015,Long2020}.
 We can also observe certain similarities between tennantite and inorganic compounds featuring atoms with  {\it 3d\textsuperscript{9}}  configuration, and having asymmetric Fermi surface.
-\textcolor{red}{The resulting complex charge distribution, and variances in the copper atom charges and, therefore, effective oxidation states, caused by structural shifts, may, in turn, be the reason for complex exchange interactions and the reported AFM ordering\cite{yaroslavzev2019} in tennantite.}
+The resulting complex charge distribution, and variances in the copper atom charges and, therefore, effective oxidation states, caused by structural shifts, may, in turn, be the reason for complex exchange interactions and the reported AFM ordering\cite{yaroslavzev2019} in tennantite.
 Moreover, the same structure features have been described for tetrahedrite\cite{DiPaola2020}.
-\textcolor{red}{The authors} noted, that understanding these features provides a key to descriptions of the phonon-limited electrical resistivity, and the Lorenz number.
+The authors noted, that understanding these features provides a key to descriptions of the phonon-limited electrical resistivity, and the Lorenz number.
 
 It must be noted that the majority of the favorable structures belongs to group 2, i.e. more covalent structures with both arsenic and sulphur atoms showing relatively low positive and negative charges, respectively.
 Interestingly, the reference structure is significantly more ionic in this respect.
 Also, we must point out that, according to the DFT calculations, several structures have energy minimum within hundredths of eV (Table~\ref{tab:energy}), i.e. only several~kJ/mol (1~eV~$\sim$~96.5 kJ/mol), which is on the limit of the accuracy of the method.
-This indicates, that the tennantite experimental structure may be \textcolor{red}{an averaged} result of several variations of the copper atoms shifts.
+This indicates, that the tennantite experimental structure may be an averaged result of several variations of the copper atoms shifts.
 
 
 \section{Conclusions}\label{sec:level1}
 In conclusion, using a combination of several experimental techniques, we have investigated the structural variations of synthetic tennantite, Cu\textsubscript{12}As\textsubscript{4}S\textsubscript{13}, manifesting itself as a dynamic disorder of the copper atoms.
-\textcolor{red}{The tennantite structure tends to conform to the asymmetric covalent polar bonds and its charge distribution is significantly affected by the atomic shifts in Laves polyhedra.
+The tennantite structure tends to conform to the asymmetric covalent polar bonds and its charge distribution is significantly affected by the atomic shifts in Laves polyhedra.
 These effects, in turn, give rise to the out-of-plane low frequency rattling modes, well described by Einstein characteristic temperatures: 74, 104, 115, and 185~K.
-The peculiarities of the tennantite crystal and electronic structure, including lattice dynamics and shifting charge distribution, shows similarities between this compound and inorganic compounds with an asymmetric Fermi surface, thus making tennantite--tetrahedrite group attractive research objects.}
+The peculiarities of the tennantite crystal and electronic structure, including lattice dynamics and shifting charge distribution, shows similarities between this compound and inorganic compounds with an asymmetric Fermi surface, thus making tennantite--tetrahedrite group attractive research objects.
 
 Our extensive structural studies revealed a strong tendency of anisotropic shifts in electron density of the bulk sample, with no evidence of a distortion or local defects.
 
